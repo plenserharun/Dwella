@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   LayoutDashboard, Building2, Users, TrendingUp, DollarSign, Calendar, MessageSquare, Settings, LogOut,
-  Plus, Eye, Heart, ArrowUpRight, Wrench, AlertCircle, CheckCircle2, BarChart3,
+  Plus, Eye, Heart, ArrowUpRight, Wrench, AlertCircle, CheckCircle2,
 } from "lucide-react";
 import { cn, formatPrice, formatDate } from "@/lib/utils";
 import StatsCard from "@/components/cards/StatsCard";

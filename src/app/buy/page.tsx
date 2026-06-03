@@ -38,8 +38,8 @@ export default function BuyPage() {
             <SlidersHorizontal className="w-5 h-5" /> Filters
           </button>
           <div className="flex items-center gap-2">
-            <button onClick={() => setViewMode("grid")} className={`p-3 rounded-xl transition-all ${viewMode === "grid" ? "bg-gold-400/20 text-gold-400" : "bg-white/5 text-gray-400"}`}><Grid3X3 className="w-5 h-5" /></button>
-            <button onClick={() => setViewMode("list")} className={`p-3 rounded-xl transition-all ${viewMode === "list" ? "bg-gold-400/20 text-gold-400" : "bg-white/5 text-gray-400"}`}><List className="w-5 h-5" /></button>
+            <button onClick={() => setViewMode("grid")} className={`p-3 rounded-xl transition-all ${viewMode === "grid" ? "bg-gold-400/20 text-gold-400" : "bg-white/5 text-gray-400 hover:text-white"}`}><Grid3X3 className="w-5 h-5" /></button>
+            <button onClick={() => setViewMode("list")} className={`p-3 rounded-xl transition-all ${viewMode === "list" ? "bg-gold-400/20 text-gold-400" : "bg-white/5 text-gray-400 hover:text-white"}`}><List className="w-5 h-5" /></button>
           </div>
         </div>
         {showFilters && (

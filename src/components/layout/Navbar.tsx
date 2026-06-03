@@ -19,7 +19,6 @@ const navLinks = [
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
   const pathname = usePathname();
 
   return (
@@ -66,10 +65,10 @@ export default function Navbar() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-2">
-            <Link href="/dashboard" className="hidden sm:block text-gray-400 hover:text-white text-sm transition-colors">
+            <Link href="/auth/signin" className="hidden sm:block text-gray-400 hover:text-white text-sm transition-colors">
               Sign in
             </Link>
-            <Link href="/dashboard" className="px-4 py-2 gold-btn rounded-lg text-sm">
+            <Link href="/auth/signup" className="px-4 py-2 gold-btn rounded-lg text-sm">
               Sign up
             </Link>
             <button
